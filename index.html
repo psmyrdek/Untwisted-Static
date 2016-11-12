@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Untwisted to aplikacja ulatwiająca wypady na miasto. Nie ważne czy wychodzisz samemu czy ze znajomymi, w miejsca znane lub nieznane - untwisted pomoże ci znaleźć najlepsze miejsce." />
-	<title>Untwisted - wypady na miasto. Tak jak lubisz.</title>
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Untwisted to aplikacja ulatwiająca wypady na miasto. Nie ważne czy wychodzisz samemu czy ze znajomymi, w miejsca znane lub nieznane - untwisted pomoże ci znaleźć najlepsze miejsce."
+    />
+    <title>Untwisted</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
 
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500&subset=latin-ext' rel='stylesheet' type='text/css'>
-	
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500&subset=latin-ext' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
-	<header class="main-header">
+    <header class="main-header">
         <div class="container">
             <div class="row">
                 <div class="col-xs-6">
@@ -24,7 +28,7 @@
                     <nav class="header-nav pull-right">
                         <button class="nav-btn"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></button>
                         <ul class="nav-content">
-                            <li><a href="#">Strona główna</a></li>
+                            <li><a href="#">Home</a></li>
                             <li><a href="#">Untwisted Apps</a></li>
                             <li><a href="#">Untwisted Team</a></li>
                         </ul>
@@ -33,22 +37,289 @@
             </div>
         </div>
     </header>
-	<div id="wrapper">
-		<div id="content">
-			@RenderBody()
-		</div>
-		<div id="footer">
-			<h3>untwisted. | 2015</h3>
-		</div>
-	</div>
-    
+    <div id="wrapper">
+        <div id="content">
+            <div class="index-wrapper">
+                <div class="index-content" style="background-image: url('images/slideshow/slides/5.jpg')">
+                    <h1 class="brand-slogan">Find your place tonight!</h1>
+                    <div class="divider"></div>
+                </div>
+                <section class="landing-section content-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="header-text">Hundreds of party apps - still the same questions</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img src="images/landing/about/client_1_en.png" class="img-responsive" />
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/landing/about/client_2_en.png" class="img-responsive" />
+                            </div>
+                            <div class="col-sm-4">
+                                <img src="images/landing/about/client_3_en.png" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section movie-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="header-text">It's time to try Untwisted.</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <iframe src="https://www.youtube.com/embed/ZWfA3LIEV_I?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section single-answer-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3 class="header-text">Check out what's going on inside pubs</h3>
+                                <p>
+                                    With Untwisted you will be always up to date. You will be receiving information about your favorite places all night.
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/landing/profits/1.png" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section single-answer-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7 col-md-push-5">
+                                <h3 class="header-text">Interaction with your favourite pubs</h3>
+                                <p>
+                                    News from your favorite pubs? With untwisted it's now possible! Don't miss any events!
+                                </p>
+                            </div>
+                            <div class="col-md-5 col-md-pull-7">
+                                <img src="images/landing/profits/2.png" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section single-answer-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <h3 class="header-text">Untwisted is customizable</h3>
+                                <p>
+                                    We give you a possibility to configure Untwisted as you like!
+                                </p>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="images/landing/profits/3.png" class="img-responsive" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section grid-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="header-text">Sounds good? It will be even better!</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <p>
+                                    We are constantly consulting our solution with your favourite pubs
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/dagrasso.jpg" alt="dagrasso Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">DaGrasso</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/amber.jpg" alt="amber Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Pub Amber</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/jazzclub.jpg" alt="jazzclub Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Jazz Club</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/kamera.jpg" alt="kamera Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Kamera</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/podstokiem.jpg" alt="podstokiem Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Pod Stokiem</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/piwiarnia.jpg" alt="piwiarnia Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Warka</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/labirynt.jpg" alt="labirynt Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Labirynt</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <div class="partner-container">
+                                    <div class="partner-logo">
+                                        <img src="images/landing/places/klimat.jpg" alt="klimat Logo" class="img-responsive" />
+                                    </div>
+                                    <p class="partner-text">Klub Klimat</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section grid-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="header-text">Our partners</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-6">
+                                <a href="http://www.lgbs.pl">
+                                    <img src="images/landing/partners/lgbs.png" alt="LGBS Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <a href="http://www.nav24.pl/">
+                                    <img src="images/landing/partners/nav24.png" alt="NAV24 Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <a href="http://www.davinci-studio.eu/">
+                                    <img src="images/landing/partners/dvs.png" alt="DaVinci Studio Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <a href="http://info.ath.bielsko.pl/">
+                                    <img src="images/landing/partners/ATH.png" alt="ATH Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-2 col-sm-offset-1 col-xs-6">
+                                <a href="http://www.bb365.info/">
+                                    <img src="images/landing/partners/bb365.png" alt="BB365.info Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <a href="http://kameralnie.com/">
+                                    <img src="images/landing/partners/kameralnie.png" alt="Kameralnie Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <a href="https://www.facebook.com/sweethomebielskobiala">
+                                    <img src="images/landing/partners/ilovebb.png" alt="I Love BBa Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-2 col-xs-6">
+                                <a href="http://reset.ath.bielsko.pl/">
+                                    <img src="images/landing/partners/reset.png" alt="RESET Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                            <div class="col-sm-2 col-xs-12">
+                                <a href="http://inkubatory.pl/">
+                                    <img src="images/landing/partners/inkub.png" alt="AIP Logo" class="img-responsive" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="landing-section social-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 class="header-text">Do you want to know more?</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul id="social-list">
+                                    <li>
+                                        <a href="http://fb.com/poznajprogramowanie" class="social-link" id="facebook-link">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://twitter.com/poznajprogpl" class="social-link" id="twitter-link">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+        <div id="footer">
+            <h3>untwisted. | 2015</h3>
+        </div>
+    </div>
+
     <script src="scripts/libs/jquery-2.1.1.js"></script>
     <script src="scripts/libs/jquery.validate.js"></script>
     <script src="scripts/libs/jquery.validate.unobtrusive.js"></script>
     <script src="scripts/libs/bootstrap.js"></script>
     <script src="scripts/app/landing.min.js"></script>
-	
-	<script type="text/javascript">
+
+    <script type="text/javascript">
 		$(function () {
 			$('.partner-text').mouseenter(function () {
 				$(this).siblings('.partner-logo').fadeIn(200);
@@ -61,4 +332,5 @@
 	</script>
 
 </body>
+
 </html>
